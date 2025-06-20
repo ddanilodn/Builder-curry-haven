@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from "@/react";
+import { useState, useEffect, useCallback } from "react";
 import { MarketIndicator, TacticalAlert } from "@/types/market";
 import {
   generateMarketIndicators,
