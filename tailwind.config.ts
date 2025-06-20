@@ -19,6 +19,18 @@ export default {
     },
     extend: {
       colors: {
+        terminal: {
+          bg: "hsl(var(--terminal-bg))",
+          surface: "hsl(var(--terminal-surface))",
+          border: "hsl(var(--terminal-border))",
+          green: "hsl(var(--terminal-green))",
+          red: "hsl(var(--terminal-red))",
+          orange: "hsl(var(--terminal-orange))",
+          blue: "hsl(var(--terminal-blue))",
+          gray: "hsl(var(--terminal-gray))",
+          text: "hsl(var(--terminal-text))",
+          "text-muted": "hsl(var(--terminal-text-muted))",
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
